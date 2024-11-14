@@ -14,6 +14,20 @@ This project creates an interactive spider animation on a webpage, where the spi
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/spider-animation-webpage.git
+   git clone https://github.com/surya-mathivanan/spider-animated-webpage.git
 ## view Online:
 https://spider-animated.netlify.app/
+
+### How to Use:
+
+1. **Replace `surya-mathivanan`** with your GitHub username in the clone URL.
+2. **License**: If you plan to license the project, you can add an MIT License file or change the license type as per your preference.
+3. Feel free to update the features or any other section to match additional details about your project.
+
+Once done, you can upload the project with this `README.md` file to your GitHub repository.
+
+
+
+
+
+
