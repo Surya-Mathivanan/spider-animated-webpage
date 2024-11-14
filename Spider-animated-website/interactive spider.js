@@ -1,4 +1,3 @@
-// Created by [Your Name]
 let w, h;
 const ctx = canvas.getContext("2d");
 const { sin, cos, PI, hypot, min, max } = Math;
@@ -202,11 +201,8 @@ function showTextCentered() {
         line4.style.color = 'blanchedalmond'; 
     });
     container.appendChild(line4);
-
-    // Add the container to the body
     document.body.appendChild(container);
 
-        // Add scroll down icon
         const scrollIcon = document.createElement('i');
         scrollIcon.className = 'fas fa-chevron-down'; 
         scrollIcon.style.fontSize = '50px'; 
@@ -218,8 +214,6 @@ function showTextCentered() {
 
         const line5 = document.createElement('a'); 
         line5.href = 'https://suryaportfolio-com.netlify.app/'; 
-
-        // line5.target 
         line5.style.fontSize = '40px';
         line5.style.fontWeight = 'bold';
         line5.style.marginTop = '10px';
@@ -227,7 +221,6 @@ function showTextCentered() {
         line5.style.textDecoration = 'none'; 
         line5.style.transition = 'color 0.3s'; 
         line5.innerText = 'Click Here!';
-
         line5.addEventListener('mouseenter', () => {
             line5.style.color = 'red'; 
         });
@@ -235,19 +228,13 @@ function showTextCentered() {
             line5.style.color = 'blanchedalmond'; 
         });
         container.appendChild(line5);
-
-    
-        // Add the container to the body
         document.body.appendChild(container);
-    
-        // Add the FontAwesome CDN link
         const link = document.createElement('link');
         link.rel = 'stylesheet';
         link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css'; // FontAwesome CDN
         document.head.appendChild(link);
 }
 
-// Call the function to display centered text
 showTextCentered();
 
 
